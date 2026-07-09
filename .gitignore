@@ -1,62 +1,62 @@
 # Python cache
-
-**pycache**/
+__pycache__/
 *.py[cod]
 *$py.class
 
 # Virtual environments
-
 venv/
 env/
 .venv/
 ENV/
 
 # Environment variables
-
 .env
 .env.local
 
 # OS files
-
 .DS_Store
 Thumbs.db
 
 # IDE / editor files
-
 .vscode/
 .idea/
 
 # Data files
-
 data/
 raw_data/
-*.csv
 *.xlsx
 *.xls
 
-# Output files
+# Ignore CSV files by default, but allow output tables
+*.csv
+!outputs/
+!outputs/tables/
+!outputs/tables/*.csv
 
-outputs/
+# Output files
+outputs/*
+!outputs/figures/
+!outputs/figures/*.png
+!outputs/tables/
+!outputs/tables/*.csv
+
+# Ignore other generated image/report files unless specifically allowed above
 reports/
 figures/
 plots/
-*.png
 *.jpg
 *.jpeg
 *.pdf
 
 # Model files
-
 models/
 *.pkl
 *.joblib
 
 # Logs
-
 *.log
 
 # Temporary files
-
 tmp/
 temp/
 *.tmp

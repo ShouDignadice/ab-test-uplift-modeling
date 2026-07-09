@@ -78,7 +78,6 @@ def main() -> None:
 
     results_df = pd.DataFrame(results)
     save_data(results_df, OUTPUT_PATH)
-    print(results_df)
 
 if __name__ == "__main__":
     main()
