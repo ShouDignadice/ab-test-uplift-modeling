@@ -21,29 +21,30 @@ Thumbs.db
 .vscode/
 .idea/
 
-# Data files
+# Raw data files
 data/
 raw_data/
 *.xlsx
 *.xls
 
-# Ignore CSV files by default, but allow output tables
+# Ignore CSV files by default
 *.csv
+
+# Allow output tables
 !outputs/
 !outputs/tables/
 !outputs/tables/*.csv
 
-# Output files
-outputs/*
+# Allow output figures
 !outputs/figures/
 !outputs/figures/*.png
-!outputs/tables/
-!outputs/tables/*.csv
 
-# Ignore other generated image/report files unless specifically allowed above
+# Other output/report folders to ignore
 reports/
 figures/
 plots/
+
+# Ignore other image/report files outside allowed output figures
 *.jpg
 *.jpeg
 *.pdf
