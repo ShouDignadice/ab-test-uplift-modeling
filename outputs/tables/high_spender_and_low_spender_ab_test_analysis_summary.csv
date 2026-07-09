@@ -1,0 +1,5 @@
+spender_segment,comparison,control_group,treatment_group,control_total_customers,control_converted_customers,control_conversion_rate,treatment_total_customers,treatment_converted_customers,treatment_conversion_rate,absolute_lift,relative_lift,z_score,p_value,decision
+High Spender,Discount vs No Offer,No Offer,Discount,10591,1359,12.83,10618,2250,21.19,8.36,65.14,16.1973,0.0,Statistically significant positive lift
+High Spender,BOGO vs No Offer,No Offer,BOGO,10591,1359,12.83,10790,1863,17.27,4.43,34.56,9.0618,0.0,Statistically significant positive lift
+Low Spender,Discount vs No Offer,No Offer,Discount,10714,903,8.43,10688,1644,15.38,6.95,82.5,15.7082,0.0,Statistically significant positive lift
+Low Spender,BOGO vs No Offer,No Offer,BOGO,10714,903,8.43,10597,1375,12.98,4.55,53.95,10.7418,0.0,Statistically significant positive lift

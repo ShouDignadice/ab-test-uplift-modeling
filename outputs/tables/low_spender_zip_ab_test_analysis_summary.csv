@@ -1,0 +1,7 @@
+spender_segment,zip_code_segment,comparison,control_group,treatment_group,control_total_customers,control_converted_customers,control_conversion_rate,treatment_total_customers,treatment_converted_customers,treatment_conversion_rate,absolute_lift,relative_lift,z_score,p_value,decision
+Low Spender,Rural,BOGO vs No Offer,No Offer,BOGO,1529,181,11.84,1571,245,15.6,3.76,31.74,3.0379,0.0024,Statistically significant positive lift
+Low Spender,Rural,Discount vs No Offer,No Offer,Discount,1529,181,11.84,1649,330,20.01,8.17,69.05,6.2679,0.0,Statistically significant positive lift
+Low Spender,Suburban,BOGO vs No Offer,No Offer,BOGO,4949,386,7.8,4820,614,12.74,4.94,63.32,8.0515,0.0,Statistically significant positive lift
+Low Spender,Suburban,Discount vs No Offer,No Offer,Discount,4949,386,7.8,4773,684,14.33,6.53,83.74,10.2864,0.0,Statistically significant positive lift
+Low Spender,Urban,BOGO vs No Offer,No Offer,BOGO,4236,336,7.93,4206,516,12.27,4.34,54.67,6.613,0.0,Statistically significant positive lift
+Low Spender,Urban,Discount vs No Offer,No Offer,Discount,4236,336,7.93,4266,630,14.77,6.84,86.18,9.9309,0.0,Statistically significant positive lift
